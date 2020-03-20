@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.selbekk.lars.timerapp.Timer?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<ScrollPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefWidth="260" prefHeight="360">
+    <VBox fx:id="contentRoot">
+        <padding>
+            <Insets left="20" top="20" right="20" bottom="20"/>
+        </padding>
+        <Button fx:id="addNewTimerButton" text="Add timer"/>
+        <Button fx:id="saveButton" text="Save"/>
+        <Button fx:id="loadButton" text="Load"/>
+<!--        <Timer totalTimeSeconds="5"/>-->
+<!--        <Timer totalTimeSeconds="65"/>-->
+<!--        <Timer totalTimeSeconds="3594998"/>-->
+    </VBox>
+</ScrollPane>

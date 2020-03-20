@@ -1,0 +1,11 @@
+PauseButton {
+    -fx-background-color: whitesmoke;
+    /*-fx-background-image: url("/assets/pause.svg");*/
+    /*-fx-min-height: 20em;*/
+    /*-fx-translate-z: -300;*/
+}
+
+PauseButton:paused {
+    /*-fx-background-image: url("/assets/play.svg");*/
+    -fx-background-color: blanchedalmond;
+}

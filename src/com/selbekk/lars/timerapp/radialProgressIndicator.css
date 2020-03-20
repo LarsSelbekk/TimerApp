@@ -1,0 +1,15 @@
+ProgressIndicator.radial {
+
+}
+
+ProgressIndicator.radial:paused #fullRing {
+    -fx-stroke: gray;
+}
+
+/*ProgressIndicator.radial:ringing #fullRing {*/
+/*    -fx-animated: true;*/
+/*}*/
+
+#fullRing {
+
+}

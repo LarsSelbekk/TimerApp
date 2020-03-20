@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import com.selbekk.lars.timerapp.SnoozeButton?>
+<?import com.selbekk.lars.timerapp.PauseButton?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <PauseButton fx:id="pauseButton" label="||"/>
+    <ProgressIndicator fx:id="progressIndicator"/>
+    <Text fx:id="remainingTimeText" text="Element 1 i kontroll" style="-fx-text-fill: aqua"/>
+    <Text fx:id="totalTimeText" text="Element 2 i kontroll"/>
+    <HBox fx:id="snoozeRow" alignment="CENTER">
+        <SnoozeButton fx:id="snoozeButton1m" text="+1m" snoozeTime="60"/>
+        <SnoozeButton fx:id="snoozeButton10m" text="+10m" snoozeTime="600"/>
+        <SnoozeButton fx:id="snoozeButton1h" text="+1t" snoozeTime="3600"/>
+    </HBox>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml">
+    <Circle fx:id="fullRing" centerX="50" centerY="50" radius="50" strokeWidth="10" stroke="antiquewhite"
+            fill="transparent" strokeType="INSIDE"/>
+    <AnchorPane>
+        <Arc fx:id="partialRing" centerX="79" centerY="128.5" radiusX="50" radiusY="50" strokeWidth="7.5"
+             stroke="cornflowerblue" startAngle="90" length="360" fill="transparent" strokeLineCap="BUTT"/>
+    </AnchorPane>
+</StackPane>
