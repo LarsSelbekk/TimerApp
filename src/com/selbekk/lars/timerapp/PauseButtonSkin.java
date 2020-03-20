@@ -17,7 +17,8 @@ public class PauseButtonSkin extends SkinBase<PauseButton> {
         super(model);
         this.pauseButton = model;
         model.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> togglePaused());
-        getSkinnable().getStylesheets().setAll(PauseButtonSkin.class.getResource("pauseButton.css").toExternalForm());
+        getSkinnable().getStylesheets().setAll(
+                PauseButtonSkin.class.getResource("pauseButton.css").toExternalForm());
         System.out.println("Created pause button skin");
     }
 

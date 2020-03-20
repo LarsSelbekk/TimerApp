@@ -8,7 +8,7 @@
 <?import com.selbekk.lars.timerapp.PauseButton?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml">
-    <PauseButton fx:id="pauseButton" label="||"/>
+    <PauseButton fx:id="pauseButton"/>
     <ProgressIndicator fx:id="progressIndicator"/>
     <Text fx:id="remainingTimeText" text="Element 1 i kontroll" style="-fx-text-fill: aqua"/>
     <Text fx:id="totalTimeText" text="Element 2 i kontroll"/>

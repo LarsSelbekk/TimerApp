@@ -57,11 +57,11 @@ public class TimerApp extends Application {
     }
 }
 
-// TODO: Knapper kun på hover.
+// TODO: Show buttons only on hover.
 // TODO: Refine look.
-// TODO: Fluent scaling.
+// TODO: Better scaling.
 // TODO: App icon.
-// TODO: Pause.
-// TODO: Delete-knapp.
-// TODO: Meny når man lager ny for å velge duration, navn og farge.
-// TODO: Vise navn
+// TODO: Delete-button for Tiemr.
+// TODO: Builder for new Timer
+// TODO: Allow naming
+// TODO: Change pause icon display to allow theming

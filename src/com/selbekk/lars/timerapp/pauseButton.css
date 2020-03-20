@@ -1,11 +1,19 @@
 PauseButton {
     -fx-background-color: whitesmoke;
-    /*-fx-background-image: url("/assets/pause.svg");*/
+    -fx-background-image: url("assets/pause.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 50% 50%;
+    -fx-background-size: 25%;
+    /*-fx-background-radius: 2em;*/
     /*-fx-min-height: 20em;*/
     /*-fx-translate-z: -300;*/
 }
 
 PauseButton:paused {
-    /*-fx-background-image: url("/assets/play.svg");*/
-    -fx-background-color: blanchedalmond;
+    -fx-background-image: url("assets/play.png");
+    -fx-background-color: whitesmoke;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 50% 50%;
+    -fx-background-size: 25%;
+    /*-fx-background-color: blanchedalmond;*/
 }
