@@ -1,4 +1,4 @@
-module timerapp {
+module com.selbekk.lars.timerapp {
     exports com.selbekk.lars.timerapp;
 
     requires javafx.base;
